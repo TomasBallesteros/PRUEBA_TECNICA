@@ -1,0 +1,15 @@
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\bin\Debug\net6.0\PRUEBA_TECNICA_1.exe
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\bin\Debug\net6.0\PRUEBA_TECNICA_1.deps.json
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\bin\Debug\net6.0\PRUEBA_TECNICA_1.runtimeconfig.json
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\bin\Debug\net6.0\PRUEBA_TECNICA_1.dll
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\bin\Debug\net6.0\PRUEBA_TECNICA_1.pdb
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.csproj.AssemblyReference.cache
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.AssemblyInfoInputs.cache
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.AssemblyInfo.cs
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.dll
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\refint\PRUEBA_TECNICA_1.dll
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.pdb
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\PRUEBA_TECNICA_1.genruntimeconfig.cache
+C:\Users\thoma\Source\repos\PRUEBA_TECNICA_1\PRUEBA_TECNICA_1\obj\Debug\net6.0\ref\PRUEBA_TECNICA_1.dll

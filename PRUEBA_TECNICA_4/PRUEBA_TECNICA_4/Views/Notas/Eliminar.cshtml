@@ -1,0 +1,23 @@
+﻿@model Notas
+@{
+    ViewData["Title"] = "Eliminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        Eliminar Nota
+    </div>
+    <div class="card-body">
+        <form asp-action="Eliminar" asp-controller="Notas" method="post">
+            <input asp-for="NoId" type="hidden" class="form-control">
+            
+            <div class="alert alert-danger" role="alert">
+                ¿Desea eliminar la nota : @Html.DisplayTextFor(m => m.NoId)?
+            </div>
+
+            <button type="submit" class="btn btn-danger"><i class="bi bi-check-square"></i> Confirmar</button>
+            <a asp-action="Listar" asp-controller="Notas" class="btn btn-warning"><i class="bi bi-x-octagon"></i> Cancelar</a>
+        </form>
+    </div>
+</div>

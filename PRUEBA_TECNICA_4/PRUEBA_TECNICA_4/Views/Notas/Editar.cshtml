@@ -1,0 +1,43 @@
+﻿@model Notas
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        Editar Nota
+    </div>
+    <div class="card-body">
+        <form asp-action="Editar" asp-controller="Notas" method="post">
+            <input asp-for="NoId" type="hidden" class="form-control">
+            <div class="mb-3">
+                <label class="form-label">Fecha</label>
+                <input asp-for="NoFecha" type="date" class="form-control">
+                <span asp-validation-for="NoFecha" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Nota</label>
+                <input asp-for="NoNota" type="number" step="0.01" class="form-control" min="0.00" max="5.00">
+                <span asp-validation-for="NoNota" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Estudiante</label>
+                <input asp-for="NoEstudiante" type="text" class="form-control">
+                <span asp-validation-for="NoEstudiante" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Materia</label>
+                <input asp-for="NoMateria" type="text" class="form-control">
+                <span asp-validation-for="NoMateria" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Periodo</label>
+                <input asp-for="NoPeriodo" type="text" class="form-control">
+                <span asp-validation-for="NoPeriodo" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="bi bi-save2"></i> Guardar</button>
+            <a asp-action="Listar" asp-controller="Notas" class="btn btn-warning"><i class="bi bi-x-octagon"></i> Cancelar</a>
+        </form>
+    </div>
+</div>

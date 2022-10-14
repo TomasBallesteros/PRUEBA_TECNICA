@@ -1,0 +1,45 @@
+﻿@model List<Notas>
+@{
+    ViewData["Title"] = "Listar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        Listado de Notas
+    </div>
+    <div class="card-body">
+        <a asp-action="Guardar" asp-controller="Notas" class="btn btn-success"><i class="bi bi-plus-square"></i> Nueva Nota</a>
+        <hr/>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Fecha</th>
+                    <th>Nota</th>
+                    <th>Estudiante</th>
+                    <th>Materia</th>
+                    <th>Periodo</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model){
+                    <tr>
+                        <td align="right">@item.NoId</td>
+                        <td align="center">@Convert.ToDateTime(@item.NoFecha).ToString("yyyy-MM-dd")</td>
+                        <td align="right">@item.NoNota</td>
+                        <td align="right">@item.NoEstudiante</td>
+                        <td align="right">@item.NoMateria</td>
+                        <td align="right">@item.NoPeriodo</td>
+                        <td align="center">
+                            <a asp-action="Editar" asp-controller="Notas" class="btn btn-primary btn-sm" asp-route-IdNota="@item.NoId"><i class="bi bi-pencil-square"></i></a>
+                            <a asp-action="Eliminar" asp-controller="Notas" class="btn btn-danger btn-sm" asp-route-IdNota="@item.NoId"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-action="Guardar" asp-controller="Notas" class="btn btn-success"><i class="bi bi-plus-square"></i> Nueva Nota</a>
+    </div>
+</div>
